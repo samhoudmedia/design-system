@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACH,SAAS,EAAE,GAAG;;ACDhB,IAAK;EACH,gBAAgB,EAAE,IAAI;;ACDxB,IAAK;EACH,OAAO,EAAE,IAAI",
-"sources": ["../src/config/_typography.scss","../src/config/_color.scss","../src/config/_layout.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../src/main.scss","../src/config/_typography.scss","../src/components/button.scss","../src/config/_color.scss"],"names":[],"mappings":"AAAA;ACEA;EACE;;;AAGF;EACE,aAPW;EAQX;EACA;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AD9BF;AENA;EACE;EACA,OCMiB;EDLjB;EACA;;AAEA;EACE,YCPY;EDQZ;EACA;;AAEA;EACE","file":"main.css"}

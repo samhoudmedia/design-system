@@ -1,10 +1,55 @@
-body {
-  font-size: 1em; }
+/* Config */
+html {
+  font-size: 1em;
+}
 
 body {
-  background-color: blue; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+}
 
-body {
-  display: flex; }
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
 
-/*# sourceMappingURL=main.css.map */
+p {
+  margin-bottom: 1.3em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.441em;
+}
+
+h2 {
+  font-size: 1.953em;
+}
+
+h3 {
+  font-size: 1.563em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+/* Components */
+.btn {
+  border-radius: 5px;
+  color: #FFF;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+.btn-primary {
+  background: #009EE0;
+  color: #FFF;
+  transition: background 0.25s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background: #00567a;
+}
+
+/*# sourceMappingURL=build/main.css.map */

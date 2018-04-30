@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 5px;
+  color: $text-color-white;
+  padding: .5em 1em;
+  text-decoration: none;
+
+  &-primary {
+    background: $primary-color;
+    color: $text-color-white;
+    transition: background $easeIn;
+
+    &:hover, &:focus {
+      background: darken($primary-color, 20%)
+    }
+  }
+}
+
