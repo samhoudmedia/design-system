@@ -4,7 +4,8 @@
   "description": "🗂 Web Design System for &amp;Samhoudmedia",
   "main": "index.js",
   "scripts": {
-    "build:sass": "sass src/main.scss build/main.css"
+    "build:sass": "sass src/main.scss build/main.css",
+    "lint:sass": "stylelint '**/*.scss'"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/samhoudmedia/system-sam#readme",
   "dependencies": {
-    "sass": "^1.3.0"
+    "sass": "^1.3.0",
+    "stylelint": "^9.2.0"
   }
 }
