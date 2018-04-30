@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/samhoudmedia/system-sam/issues"
   },
-  "homepage": "https://github.com/samhoudmedia/system-sam#readme"
+  "homepage": "https://github.com/samhoudmedia/system-sam#readme",
+  "dependencies": {
+    "sass": "^1.3.0"
+  }
 }
