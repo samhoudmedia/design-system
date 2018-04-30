@@ -20,6 +20,7 @@
   "homepage": "https://github.com/samhoudmedia/system-sam#readme",
   "dependencies": {
     "sass": "^1.3.0",
-    "stylelint": "^9.2.0"
+    "stylelint": "^9.2.0",
+    "stylelint-config-recommended": "^2.1.0"
   }
 }
