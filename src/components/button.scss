@@ -2,6 +2,9 @@
   border-radius: 5px;
   padding: .5em 1em;
   text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
 
   &-primary {
     color: $text-color-white !important;

@@ -20,13 +20,19 @@ h1 {
   font-size: 2.441em; }
 
 h2 {
-  font-size: 1.953em; }
+  font-size: 1.953em;
+  font-weight: 700; }
 
 h3 {
   font-size: 1.563em; }
 
 h4 {
   font-size: 1.25em; }
+
+a {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 body {
   background: #ECF1F3; }
@@ -44,7 +50,7 @@ ul {
 body {
   margin: 0; }
 
-html {
+*, *:before, *:after {
   box-sizing: border-box; }
 
 a {
@@ -59,7 +65,10 @@ img {
 .btn {
   border-radius: 5px;
   padding: .5em 1em;
-  text-decoration: none; }
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center; }
   .btn-primary {
     color: #FFF !important;
     background: #009EE0;
@@ -90,7 +99,9 @@ nav {
 article {
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
   background-color: #FFF;
-  color: #009EE0; }
+  color: #009EE0;
+  margin-bottom: 10vh;
+  font-weight: 200; }
   article div {
     padding: 1em; }
 
