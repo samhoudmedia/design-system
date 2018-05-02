@@ -8,7 +8,7 @@ body {
   line-height: 1.8; }
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
+  margin: 0em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2; }
 
@@ -29,10 +29,10 @@ h4 {
   font-size: 1.25em; }
 
 body {
-  color: #009EE0; }
+  background: #ECF1F3; }
 
 header {
-  margin: 12vh 1em; }
+  margin: 9vh 0; }
 
 section {
   margin: 1em; }
@@ -52,10 +52,12 @@ a {
   a:visited {
     color: inherit; }
 
+img {
+  width: 100%; }
+
 /* Components */
 .btn {
   border-radius: 5px;
-  color: #FFF;
   padding: .5em 1em;
   text-decoration: none; }
   .btn-primary {
@@ -76,8 +78,21 @@ nav {
   left: 0;
   padding: 0 1em;
   border-top: 5px solid #009EE0; }
+  nav img {
+    width: 50%; }
   nav ul {
     display: flex;
     margin-left: auto; }
     nav ul li {
       margin-right: 1em; }
+
+article {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+  background-color: #FFF; }
+  article div {
+    padding: 1em; }
+
+header {
+  background: #009EE0;
+  color: #FFF;
+  padding: 1em; }

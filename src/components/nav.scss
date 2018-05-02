@@ -10,6 +10,10 @@ nav {
   padding: 0 1em;
   border-top: 5px solid $primary-color;
 
+  img {
+    width: 50%;
+  }
+
   ul {
     display: flex;
     margin-left: auto;
