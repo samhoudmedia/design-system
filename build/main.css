@@ -28,6 +28,9 @@ h3 {
 h4 {
   font-size: 1.25em; }
 
+body {
+  background-color: yellow; }
+
 /* Components */
 .btn {
   border-radius: 5px;
