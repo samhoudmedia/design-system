@@ -4,8 +4,8 @@
   text-decoration: none;
 
   &-primary {
+    color: $text-color-white !important;
     background: $primary-color;
-    color: $text-color-white;
     transition: background $easeIn;
 
     &:hover, &:focus {

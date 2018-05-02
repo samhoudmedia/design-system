@@ -61,8 +61,8 @@ img {
   padding: .5em 1em;
   text-decoration: none; }
   .btn-primary {
+    color: #FFF !important;
     background: #009EE0;
-    color: #FFF;
     transition: background 0.25s cubic-bezier(0.86, 0, 0.07, 1); }
     .btn-primary:hover, .btn-primary:focus {
       background: #00567a; }
@@ -77,7 +77,8 @@ nav {
   right: 0;
   left: 0;
   padding: 0 1em;
-  border-top: 5px solid #009EE0; }
+  border-top: 5px solid #009EE0;
+  color: #009EE0; }
   nav img {
     width: 50%; }
   nav ul {
@@ -88,7 +89,8 @@ nav {
 
 article {
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
-  background-color: #FFF; }
+  background-color: #FFF;
+  color: #009EE0; }
   article div {
     padding: 1em; }
 
