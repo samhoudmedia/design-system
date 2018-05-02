@@ -31,6 +31,9 @@ h4 {
 body {
   color: #009EE0; }
 
+header {
+  margin: 12vh 1em; }
+
 section {
   margin: 1em; }
 
@@ -43,6 +46,11 @@ body {
 
 html {
   box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: inherit; }
 
 /* Components */
 .btn {
@@ -66,7 +74,8 @@ nav {
   top: 0;
   right: 0;
   left: 0;
-  padding: 0 1em; }
+  padding: 0 1em;
+  border-top: 5px solid #009EE0; }
   nav ul {
     display: flex;
     margin-left: auto; }
