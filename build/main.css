@@ -29,7 +29,11 @@ h4 {
   font-size: 1.25em; }
 
 body {
-  background-color: yellow; }
+  color: #009EE0; }
+
+ul {
+  list-style-type: none;
+  padding: 0; }
 
 /* Components */
 .btn {
@@ -43,3 +47,6 @@ body {
     transition: background 0.25s cubic-bezier(0.86, 0, 0.07, 1); }
     .btn-primary:hover, .btn-primary:focus {
       background: #00567a; }
+
+nav {
+  background: #fff; }
