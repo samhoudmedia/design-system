@@ -12,7 +12,6 @@ https://cdn.rawgit.com/samhoudmedia/system-sam/4623beae/build/main.css
 ```
 
 ## ⚙ Installation & Development
-The compiled Sas
 
 ### Tech Stack
 * [Sass](https://www.npmjs.com/package/webpack)
@@ -28,8 +27,8 @@ The compiled Sas
 ```
 $ git clone https://github.com/samhoudmedia/puzzle-cube-prototypes.git
 ```
-2. Run `npm run build:sass` to process the sass file.
-3. Run `npm run lint:sass` to lint `.scss` files.
+2. Run `npm run sass:watch` to compile `.scss` files.
+3. Run `npm run sass:server` in another terminal window to watch for changes.
 
 ## 📃 License
 This project is licensed under the [MIT](LICENSE) License
