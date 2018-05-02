@@ -4,7 +4,7 @@
   "description": "🗂 Web Design System for &amp;Samhoudmedia",
   "main": "index.js",
   "scripts": {
-    "sass:build": "node-sass src/main.scss -o build",
+    "sass:build": "node-sass src/main.scss -o build --output-style compressed",
     "sass:watch": "npm run sass:build && node-sass src/main.scss -wo build",
     "sass:server": "browser-sync start -s -f ."
   },
